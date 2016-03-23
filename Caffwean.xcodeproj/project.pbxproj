@@ -8,24 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		5E0A4BDF1C1369FE0089AD80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0A4BDE1C1369FE0089AD80 /* AppDelegate.swift */; };
-		5E0A4BE11C1369FE0089AD80 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0A4BE01C1369FE0089AD80 /* FirstViewController.swift */; };
+		5E0A4BE11C1369FE0089AD80 /* CaffeineTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0A4BE01C1369FE0089AD80 /* CaffeineTrackerViewController.swift */; };
 		5E0A4BE31C1369FE0089AD80 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0A4BE21C1369FE0089AD80 /* SecondViewController.swift */; };
 		5E0A4BE61C1369FE0089AD80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E0A4BE41C1369FE0089AD80 /* Main.storyboard */; };
 		5E0A4BE81C1369FE0089AD80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E0A4BE71C1369FE0089AD80 /* Assets.xcassets */; };
 		5E0A4BEB1C1369FE0089AD80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E0A4BE91C1369FE0089AD80 /* LaunchScreen.storyboard */; };
-		5E0A4BF61C1369FE0089AD80 /* CaffweanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0A4BF51C1369FE0089AD80 /* CaffweanTests.swift */; };
-		5E0A4C011C1369FE0089AD80 /* CaffweanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0A4C001C1369FE0089AD80 /* CaffweanUITests.swift */; };
+		5E626E201CA20DCF00DAD9A3 /* CaffeineTrackerViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E626E1F1CA20DCF00DAD9A3 /* CaffeineTrackerViewControllerTest.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		5E0A4BF21C1369FE0089AD80 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5E0A4BD31C1369FD0089AD80 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5E0A4BDA1C1369FE0089AD80;
-			remoteInfo = Caffwean;
-		};
-		5E0A4BFD1C1369FE0089AD80 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5E0A4BD31C1369FD0089AD80 /* Project object */;
 			proxyType = 1;
@@ -37,18 +29,15 @@
 /* Begin PBXFileReference section */
 		5E0A4BDB1C1369FE0089AD80 /* Caffwean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caffwean.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E0A4BDE1C1369FE0089AD80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E0A4BE01C1369FE0089AD80 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		5E0A4BE01C1369FE0089AD80 /* CaffeineTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaffeineTrackerViewController.swift; sourceTree = "<group>"; };
 		5E0A4BE21C1369FE0089AD80 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		5E0A4BE51C1369FE0089AD80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E0A4BE71C1369FE0089AD80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E0A4BEA1C1369FE0089AD80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E0A4BEC1C1369FE0089AD80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E0A4BF11C1369FE0089AD80 /* CaffweanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaffweanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E0A4BF51C1369FE0089AD80 /* CaffweanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaffweanTests.swift; sourceTree = "<group>"; };
 		5E0A4BF71C1369FE0089AD80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E0A4BFC1C1369FE0089AD80 /* CaffweanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaffweanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E0A4C001C1369FE0089AD80 /* CaffweanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaffweanUITests.swift; sourceTree = "<group>"; };
-		5E0A4C021C1369FE0089AD80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E626E1F1CA20DCF00DAD9A3 /* CaffeineTrackerViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaffeineTrackerViewControllerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +55,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E0A4BF91C1369FE0089AD80 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +63,6 @@
 			children = (
 				5E0A4BDD1C1369FE0089AD80 /* Caffwean */,
 				5E0A4BF41C1369FE0089AD80 /* CaffweanTests */,
-				5E0A4BFF1C1369FE0089AD80 /* CaffweanUITests */,
 				5E0A4BDC1C1369FE0089AD80 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +72,6 @@
 			children = (
 				5E0A4BDB1C1369FE0089AD80 /* Caffwean.app */,
 				5E0A4BF11C1369FE0089AD80 /* CaffweanTests.xctest */,
-				5E0A4BFC1C1369FE0089AD80 /* CaffweanUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				5E0A4BDE1C1369FE0089AD80 /* AppDelegate.swift */,
-				5E0A4BE01C1369FE0089AD80 /* FirstViewController.swift */,
+				5E0A4BE01C1369FE0089AD80 /* CaffeineTrackerViewController.swift */,
 				5E0A4BE21C1369FE0089AD80 /* SecondViewController.swift */,
 				5E0A4BE41C1369FE0089AD80 /* Main.storyboard */,
 				5E0A4BE71C1369FE0089AD80 /* Assets.xcassets */,
@@ -113,19 +93,10 @@
 		5E0A4BF41C1369FE0089AD80 /* CaffweanTests */ = {
 			isa = PBXGroup;
 			children = (
-				5E0A4BF51C1369FE0089AD80 /* CaffweanTests.swift */,
 				5E0A4BF71C1369FE0089AD80 /* Info.plist */,
+				5E626E1F1CA20DCF00DAD9A3 /* CaffeineTrackerViewControllerTest.swift */,
 			);
 			path = CaffweanTests;
-			sourceTree = "<group>";
-		};
-		5E0A4BFF1C1369FE0089AD80 /* CaffweanUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5E0A4C001C1369FE0089AD80 /* CaffweanUITests.swift */,
-				5E0A4C021C1369FE0089AD80 /* Info.plist */,
-			);
-			path = CaffweanUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,24 +137,6 @@
 			productReference = 5E0A4BF11C1369FE0089AD80 /* CaffweanTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5E0A4BFB1C1369FE0089AD80 /* CaffweanUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5E0A4C0B1C1369FE0089AD80 /* Build configuration list for PBXNativeTarget "CaffweanUITests" */;
-			buildPhases = (
-				5E0A4BF81C1369FE0089AD80 /* Sources */,
-				5E0A4BF91C1369FE0089AD80 /* Frameworks */,
-				5E0A4BFA1C1369FE0089AD80 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5E0A4BFE1C1369FE0089AD80 /* PBXTargetDependency */,
-			);
-			name = CaffweanUITests;
-			productName = CaffweanUITests;
-			productReference = 5E0A4BFC1C1369FE0089AD80 /* CaffweanUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +150,6 @@
 						CreatedOnToolsVersion = 7.0.1;
 					};
 					5E0A4BF01C1369FE0089AD80 = {
-						CreatedOnToolsVersion = 7.0.1;
-						TestTargetID = 5E0A4BDA1C1369FE0089AD80;
-					};
-					5E0A4BFB1C1369FE0089AD80 = {
 						CreatedOnToolsVersion = 7.0.1;
 						TestTargetID = 5E0A4BDA1C1369FE0089AD80;
 					};
@@ -221,7 +170,6 @@
 			targets = (
 				5E0A4BDA1C1369FE0089AD80 /* Caffwean */,
 				5E0A4BF01C1369FE0089AD80 /* CaffweanTests */,
-				5E0A4BFB1C1369FE0089AD80 /* CaffweanUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,13 +192,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E0A4BFA1C1369FE0089AD80 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -260,7 +201,7 @@
 			files = (
 				5E0A4BE31C1369FE0089AD80 /* SecondViewController.swift in Sources */,
 				5E0A4BDF1C1369FE0089AD80 /* AppDelegate.swift in Sources */,
-				5E0A4BE11C1369FE0089AD80 /* FirstViewController.swift in Sources */,
+				5E0A4BE11C1369FE0089AD80 /* CaffeineTrackerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,15 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E0A4BF61C1369FE0089AD80 /* CaffweanTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5E0A4BF81C1369FE0089AD80 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5E0A4C011C1369FE0089AD80 /* CaffweanUITests.swift in Sources */,
+				5E626E201CA20DCF00DAD9A3 /* CaffeineTrackerViewControllerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +220,6 @@
 			isa = PBXTargetDependency;
 			target = 5E0A4BDA1C1369FE0089AD80 /* Caffwean */;
 			targetProxy = 5E0A4BF21C1369FE0089AD80 /* PBXContainerItemProxy */;
-		};
-		5E0A4BFE1C1369FE0089AD80 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5E0A4BDA1C1369FE0089AD80 /* Caffwean */;
-			targetProxy = 5E0A4BFD1C1369FE0089AD80 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -444,30 +372,6 @@
 			};
 			name = Release;
 		};
-		5E0A4C0C1C1369FE0089AD80 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CaffweanUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.virtualmountain.CaffweanUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Caffwean;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		5E0A4C0D1C1369FE0089AD80 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CaffweanUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.virtualmountain.CaffweanUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Caffwean;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -487,6 +391,7 @@
 				5E0A4C071C1369FE0089AD80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E0A4C081C1369FE0089AD80 /* Build configuration list for PBXNativeTarget "CaffweanTests" */ = {
 			isa = XCConfigurationList;
@@ -495,14 +400,7 @@
 				5E0A4C0A1C1369FE0089AD80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		5E0A4C0B1C1369FE0089AD80 /* Build configuration list for PBXNativeTarget "CaffweanUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5E0A4C0C1C1369FE0089AD80 /* Debug */,
-				5E0A4C0D1C1369FE0089AD80 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

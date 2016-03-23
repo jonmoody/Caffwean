@@ -1,11 +1,3 @@
-//
-//  SecondViewController.swift
-//  Caffwean
-//
-//  Created by Jonathan Moody on 12/5/15.
-//  Copyright © 2015 Jonathan Moody. All rights reserved.
-//
-
 import UIKit
 
 class SecondViewController: UIViewController {
@@ -20,6 +12,4 @@ class SecondViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
 }
-
