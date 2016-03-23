@@ -8,4 +8,13 @@ class CaffeineTrackerViewControllerTest: XCTestCase {
         XCTAssertEqual(caffeineTracker.getCaffeineIntake(), 0);
     }
 
+    func testCaffeineCanBeAddedToTheCaffeineTracker() {
+        let caffeineTracker = CaffeineTrackerViewController();
+        let expectedCaffeineIntake = 52;
+
+        caffeineTracker.addCaffeine(expectedCaffeineIntake);
+
+        XCTAssertEqual(caffeineTracker.getCaffeineIntake(), expectedCaffeineIntake);
+    }
+
 }
