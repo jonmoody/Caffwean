@@ -2,14 +2,23 @@ import UIKit
 
 class CaffeineTrackerViewController: UIViewController {
 
-    var caffeineIntake: Int = 0;
+    var caffeineIntake: Int = 0
+    @IBOutlet weak var CaffeineIntakeLabel: UILabel!
+
+    override func viewDidLoad() {
+        CaffeineIntakeLabel.text = getCaffeineIntakeText()
+    }
 
     func getCaffeineIntake() -> Int {
-        return caffeineIntake;
+        return caffeineIntake
+    }
+
+    func getCaffeineIntakeText() -> String {
+        return "0mg"
     }
 
     func addCaffeine(caffeineAmount: Int) {
-        caffeineIntake += caffeineAmount;
+        caffeineIntake += caffeineAmount
     }
 
 }

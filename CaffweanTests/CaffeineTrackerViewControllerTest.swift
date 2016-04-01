@@ -4,17 +4,23 @@ import XCTest
 class CaffeineTrackerViewControllerTest: XCTestCase {
 
     func testDailyCaffeineIntakeIsDefaultedToZero() {
-        let caffeineTracker = CaffeineTrackerViewController();
-        XCTAssertEqual(caffeineTracker.getCaffeineIntake(), 0);
+        let caffeineTracker = CaffeineTrackerViewController()
+        XCTAssertEqual(caffeineTracker.getCaffeineIntake(), 0)
     }
 
     func testCaffeineCanBeAddedToTheCaffeineTracker() {
-        let caffeineTracker = CaffeineTrackerViewController();
-        let expectedCaffeineIntake = 52;
+        let caffeineTracker = CaffeineTrackerViewController()
+        let expectedCaffeineIntake = 52
 
-        caffeineTracker.addCaffeine(expectedCaffeineIntake);
+        caffeineTracker.addCaffeine(expectedCaffeineIntake)
 
-        XCTAssertEqual(caffeineTracker.getCaffeineIntake(), expectedCaffeineIntake);
+        XCTAssertEqual(caffeineTracker.getCaffeineIntake(), expectedCaffeineIntake)
+    }
+
+    func testCaffeineIntakeLabelWillDisplay0mgByDefault() {
+        let caffeineTracker = CaffeineTrackerViewController()
+
+        XCTAssertEqual(caffeineTracker.getCaffeineIntakeText(), "0mg")
     }
 
 }
