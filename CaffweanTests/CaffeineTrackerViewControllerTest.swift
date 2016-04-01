@@ -23,4 +23,11 @@ class CaffeineTrackerViewControllerTest: XCTestCase {
         XCTAssertEqual(caffeineTracker.getCaffeineIntakeText(), "0mg")
     }
 
+    func testCaffeineIntakeLabelTextWillBeUpdatedWithCaffeineIntake() {
+        let caffeineTracker = CaffeineTrackerViewController()
+        caffeineTracker.addCaffeine(92)
+
+        XCTAssertEqual(caffeineTracker.getCaffeineIntakeText(), "92mg")
+    }
+
 }

@@ -14,7 +14,7 @@ class CaffeineTrackerViewController: UIViewController {
     }
 
     func getCaffeineIntakeText() -> String {
-        return "0mg"
+        return String(caffeineIntake) + "mg"
     }
 
     func addCaffeine(caffeineAmount: Int) {
