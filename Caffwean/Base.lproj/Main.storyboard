@@ -33,22 +33,29 @@
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="Caffwean" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="slA-lK-FbJ" userLabel="CaffweanTitle">
                                 <rect key="frame" x="300" y="50" width="0.0" height="0.0"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="36"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="48"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Suz-nF-kk3">
-                                <rect key="frame" x="265" y="394" width="71" height="30"/>
-                                <state key="normal" title="Coke Zero"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Suz-nF-kk3">
+                                <rect key="frame" x="20" y="356" width="95" height="145"/>
+                                <state key="normal" title="Coke Zero" image="coke-zero.jpg"/>
                                 <connections>
                                     <action selector="beverageButtonPressed:" destination="9pv-A4-QxB" eventType="touchDown" id="qni-TI-4ec"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8z-CR-omz">
-                                <rect key="frame" x="235" y="432" width="130" height="30"/>
-                                <state key="normal" title="Diet Mountain Dew"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8z-CR-omz">
+                                <rect key="frame" x="142" y="356" width="95" height="145"/>
+                                <state key="normal" title="Diet Mountain Dew" image="diet-mountain-dew.jpg"/>
                                 <connections>
                                     <action selector="beverageButtonPressed:" destination="9pv-A4-QxB" eventType="touchDown" id="9bh-nd-Whq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PTQ-tV-LWU" userLabel="Monster Zero">
+                                <rect key="frame" x="262" y="356" width="95" height="145"/>
+                                <state key="normal" title="Monster Zero" image="monster-zero.jpg"/>
+                                <connections>
+                                    <action selector="beverageButtonPressed:" destination="9pv-A4-QxB" eventType="touchDown" id="Uk2-bA-Urn"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -57,14 +64,15 @@
                             <constraint firstItem="slA-lK-FbJ" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="BSf-LP-WBC"/>
                             <constraint firstItem="zjR-xy-YYU" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="HNx-Yt-EKH"/>
                             <constraint firstItem="KQZ-1w-vlD" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="RMz-Je-mpR"/>
-                            <constraint firstItem="D8z-CR-omz" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="XXv-DK-KN3"/>
-                            <constraint firstItem="Suz-nF-kk3" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="wCz-Ah-Y2x"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="CaffeineIntakeLabel" destination="KQZ-1w-vlD" id="G9s-7L-bmG"/>
                         <outlet property="CaffweanTitleLabel" destination="slA-lK-FbJ" id="KHt-gA-rak"/>
+                        <outletCollection property="ImageButtonCollection" destination="Suz-nF-kk3" collectionClass="NSMutableArray" id="3rq-VI-LW4"/>
+                        <outletCollection property="ImageButtonCollection" destination="D8z-CR-omz" collectionClass="NSMutableArray" id="WUR-su-uhd"/>
+                        <outletCollection property="ImageButtonCollection" destination="PTQ-tV-LWU" collectionClass="NSMutableArray" id="mAi-DW-cNt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
@@ -132,7 +140,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="coke-zero.jpg" width="116" height="207"/>
+        <image name="diet-mountain-dew.jpg" width="150" height="281"/>
         <image name="first" width="30" height="30"/>
+        <image name="monster-zero.jpg" width="125" height="284"/>
         <image name="second" width="30" height="30"/>
     </resources>
 </document>

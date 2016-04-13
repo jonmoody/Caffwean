@@ -14,6 +14,9 @@
 		5E0A4BE81C1369FE0089AD80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E0A4BE71C1369FE0089AD80 /* Assets.xcassets */; };
 		5E0A4BEB1C1369FE0089AD80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E0A4BE91C1369FE0089AD80 /* LaunchScreen.storyboard */; };
 		5E626E201CA20DCF00DAD9A3 /* CaffeineTrackerViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E626E1F1CA20DCF00DAD9A3 /* CaffeineTrackerViewControllerTest.swift */; settings = {ASSET_TAGS = (); }; };
+		5E749EF21CBEB7D000C7183C /* coke-zero.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E749EF11CBEB7D000C7183C /* coke-zero.jpg */; settings = {ASSET_TAGS = (); }; };
+		5E749EF41CBEB81100C7183C /* diet-mountain-dew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E749EF31CBEB81100C7183C /* diet-mountain-dew.jpg */; settings = {ASSET_TAGS = (); }; };
+		5E749EF61CBEB92B00C7183C /* monster-zero.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E749EF51CBEB92B00C7183C /* monster-zero.jpg */; settings = {ASSET_TAGS = (); }; };
 		5E9A25FD1CBE850200316D26 /* CaffeineCalculatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A25FC1CBE850200316D26 /* CaffeineCalculatorTest.swift */; settings = {ASSET_TAGS = (); }; };
 		5E9A25FF1CBE862400316D26 /* CaffeineCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A25FE1CBE862400316D26 /* CaffeineCalculator.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
@@ -40,6 +43,9 @@
 		5E0A4BF11C1369FE0089AD80 /* CaffweanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaffweanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E0A4BF71C1369FE0089AD80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E626E1F1CA20DCF00DAD9A3 /* CaffeineTrackerViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaffeineTrackerViewControllerTest.swift; sourceTree = "<group>"; };
+		5E749EF11CBEB7D000C7183C /* coke-zero.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "coke-zero.jpg"; sourceTree = "<group>"; };
+		5E749EF31CBEB81100C7183C /* diet-mountain-dew.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "diet-mountain-dew.jpg"; sourceTree = "<group>"; };
+		5E749EF51CBEB92B00C7183C /* monster-zero.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "monster-zero.jpg"; sourceTree = "<group>"; };
 		5E9A25FC1CBE850200316D26 /* CaffeineCalculatorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaffeineCalculatorTest.swift; sourceTree = "<group>"; };
 		5E9A25FE1CBE862400316D26 /* CaffeineCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaffeineCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +89,7 @@
 		5E0A4BDD1C1369FE0089AD80 /* Caffwean */ = {
 			isa = PBXGroup;
 			children = (
+				5E749EEC1CBE98A300C7183C /* Images */,
 				5E0A4BDE1C1369FE0089AD80 /* AppDelegate.swift */,
 				5E0A4BE01C1369FE0089AD80 /* CaffeineTrackerViewController.swift */,
 				5E0A4BE21C1369FE0089AD80 /* SecondViewController.swift */,
@@ -103,6 +110,16 @@
 				5E9A25FC1CBE850200316D26 /* CaffeineCalculatorTest.swift */,
 			);
 			path = CaffweanTests;
+			sourceTree = "<group>";
+		};
+		5E749EEC1CBE98A300C7183C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5E749EF51CBEB92B00C7183C /* monster-zero.jpg */,
+				5E749EF31CBEB81100C7183C /* diet-mountain-dew.jpg */,
+				5E749EF11CBEB7D000C7183C /* coke-zero.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +203,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E0A4BEB1C1369FE0089AD80 /* LaunchScreen.storyboard in Resources */,
+				5E749EF41CBEB81100C7183C /* diet-mountain-dew.jpg in Resources */,
+				5E749EF61CBEB92B00C7183C /* monster-zero.jpg in Resources */,
+				5E749EF21CBEB7D000C7183C /* coke-zero.jpg in Resources */,
 				5E0A4BE81C1369FE0089AD80 /* Assets.xcassets in Resources */,
 				5E0A4BE61C1369FE0089AD80 /* Main.storyboard in Resources */,
 			);

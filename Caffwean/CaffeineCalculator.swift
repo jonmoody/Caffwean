@@ -4,7 +4,8 @@ class CaffeineCalculator {
 
     let caffeineMap = [
         "Coke Zero" : 34,
-        "Diet Mountain Dew" : 54
+        "Diet Mountain Dew" : 54,
+        "Monster Zero" : 140
     ]
 
     func add(beverage: String) {

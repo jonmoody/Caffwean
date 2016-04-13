@@ -19,4 +19,12 @@ class CaffeineCalculatorTest: XCTestCase {
         XCTAssertEqual(54, caffeineCalculator.totalCaffeine)
     }
 
+    func testWhenACanOfMonsterZeroIsConsumedThen140mgIsAddedToTheCaffeineTotal() {
+        let caffeineCalculator = CaffeineCalculator()
+
+        caffeineCalculator.add("Monster Zero")
+
+        XCTAssertEqual(140, caffeineCalculator.totalCaffeine)
+    }
+
 }
