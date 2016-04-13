@@ -14,6 +14,8 @@
 		5E0A4BE81C1369FE0089AD80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E0A4BE71C1369FE0089AD80 /* Assets.xcassets */; };
 		5E0A4BEB1C1369FE0089AD80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E0A4BE91C1369FE0089AD80 /* LaunchScreen.storyboard */; };
 		5E626E201CA20DCF00DAD9A3 /* CaffeineTrackerViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E626E1F1CA20DCF00DAD9A3 /* CaffeineTrackerViewControllerTest.swift */; settings = {ASSET_TAGS = (); }; };
+		5E9A25FD1CBE850200316D26 /* CaffeineCalculatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A25FC1CBE850200316D26 /* CaffeineCalculatorTest.swift */; settings = {ASSET_TAGS = (); }; };
+		5E9A25FF1CBE862400316D26 /* CaffeineCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A25FE1CBE862400316D26 /* CaffeineCalculator.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		5E0A4BF11C1369FE0089AD80 /* CaffweanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaffweanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E0A4BF71C1369FE0089AD80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E626E1F1CA20DCF00DAD9A3 /* CaffeineTrackerViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaffeineTrackerViewControllerTest.swift; sourceTree = "<group>"; };
+		5E9A25FC1CBE850200316D26 /* CaffeineCalculatorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaffeineCalculatorTest.swift; sourceTree = "<group>"; };
+		5E9A25FE1CBE862400316D26 /* CaffeineCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaffeineCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 				5E0A4BE71C1369FE0089AD80 /* Assets.xcassets */,
 				5E0A4BE91C1369FE0089AD80 /* LaunchScreen.storyboard */,
 				5E0A4BEC1C1369FE0089AD80 /* Info.plist */,
+				5E9A25FE1CBE862400316D26 /* CaffeineCalculator.swift */,
 			);
 			path = Caffwean;
 			sourceTree = "<group>";
@@ -95,6 +100,7 @@
 			children = (
 				5E0A4BF71C1369FE0089AD80 /* Info.plist */,
 				5E626E1F1CA20DCF00DAD9A3 /* CaffeineTrackerViewControllerTest.swift */,
+				5E9A25FC1CBE850200316D26 /* CaffeineCalculatorTest.swift */,
 			);
 			path = CaffweanTests;
 			sourceTree = "<group>";
@@ -201,6 +207,7 @@
 			files = (
 				5E0A4BE31C1369FE0089AD80 /* SecondViewController.swift in Sources */,
 				5E0A4BDF1C1369FE0089AD80 /* AppDelegate.swift in Sources */,
+				5E9A25FF1CBE862400316D26 /* CaffeineCalculator.swift in Sources */,
 				5E0A4BE11C1369FE0089AD80 /* CaffeineTrackerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E9A25FD1CBE850200316D26 /* CaffeineCalculatorTest.swift in Sources */,
 				5E626E201CA20DCF00DAD9A3 /* CaffeineTrackerViewControllerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

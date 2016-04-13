@@ -5,29 +5,21 @@ class CaffeineTrackerViewControllerTest: XCTestCase {
 
     func testDailyCaffeineIntakeIsDefaultedToZero() {
         let caffeineTracker = CaffeineTrackerViewController()
-        XCTAssertEqual(caffeineTracker.getCaffeineIntake(), 0)
-    }
-
-    func testCaffeineCanBeAddedToTheCaffeineTracker() {
-        let caffeineTracker = CaffeineTrackerViewController()
-        let expectedCaffeineIntake = 52
-
-        caffeineTracker.addCaffeine(expectedCaffeineIntake)
-
-        XCTAssertEqual(caffeineTracker.getCaffeineIntake(), expectedCaffeineIntake)
+        XCTAssertEqual(0, caffeineTracker.getCaffeineIntake())
     }
 
     func testCaffeineIntakeLabelWillDisplay0mgByDefault() {
         let caffeineTracker = CaffeineTrackerViewController()
 
-        XCTAssertEqual(caffeineTracker.getCaffeineIntakeText(), "0mg")
+        XCTAssertEqual("0mg", caffeineTracker.getCaffeineIntakeText())
     }
 
-    func testCaffeineIntakeLabelTextWillBeUpdatedWithCaffeineIntake() {
+    func testWhenTheCaffeineIntakeAmountChangesThenTheCaffeineIntakeLabelWillBeUpdatedToReflectTheNewAmount() {
         let caffeineTracker = CaffeineTrackerViewController()
-        caffeineTracker.addCaffeine(92)
 
-        XCTAssertEqual(caffeineTracker.getCaffeineIntakeText(), "92mg")
+        caffeineTracker.caffeineCalculator.totalCaffeine = 55
+
+        XCTAssertEqual("55mg", caffeineTracker.getCaffeineIntakeText())
     }
 
 }
